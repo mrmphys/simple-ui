@@ -22,8 +22,8 @@ def get_bot_response(user_input, history):
     try:
         # Send the request to the endpoint
         response = requests.post(
-            #"https://chipper-meds-1f42429118d4.herokuapp.com/generate",
-            "http://0.0.0.0:8000/generate",
+            "https://chipper-meds-1f42429118d4.herokuapp.com/generate",
+            #"http://0.0.0.0:8000/generate",
             json=payload
         )
 
